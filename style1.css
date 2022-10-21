@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px auto;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23a5ac92' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+}
+
+#tiulo {
+    font-size: 2rem;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.fa-thermometer-half {
+    font-size: 3rem;
+    color: cornflowerblue;
+    padding: 10px 0;
+}
+
+.fa-tint {
+    font-size: 3rem;
+    color: greenyellow;
+    padding: 10px 0;
+}
+
+.showcase {
+    width: 300px;
+    height: 300px;
+    background: url(./img/dht11-removebg-preview.png) no-repeat center center/cover;
+    display: inline-block
+}
+
+.showcase p {
+    text-align: center;
+    font-size: 1 rem;
+    display: content;
+}
+
+.particion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.unidades {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.dht-label {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    padding-bottom: 15px;
+}
+
+/* .fa-clock {
+    font-size: 2rem;
+    color: rgb(54, 41, 53);
+}
+
+.fa-calendar-alt {
+    font-size: 2rem;
+    color: rgb(35, 40, 133);
+} 
+antiguos relojes y fechas
+*/
+
+legend{
+    font-size: 1.5em;
+    padding: 0;
+}
+fieldset{
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: gray;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 15px 0;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+
+/* .secondpart {
+    display: contents;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin: 70px 0;
+} */
+
+
+#txtField1 {
+    vertical-align: middle;
+    width: 70px;
+    height: 100px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#txtField2 {
+    vertical-align: middle;
+    width: 70px;
+    height: 100px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* #fecha {
+
+    vertical-align: middle;
+    width: 220px;
+    height: 100px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+#TimeActual {
+
+    vertical-align: middle;
+    width: 110px;
+    height: 100px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+} antiguas configuraciones de reloj y fecha 
+*/
+
+
+
+
+footer .redes-sociales {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 100px;
+    transition: .3s ease all;
+}
+
+/* footer .redes-sociales  */
+footer .redes-sociales .github {background: gray;}
+footer .redes-sociales .linkedin {background: gray;}
+
+footer .redes-sociales a i {
+    font-size: 15px;
+    line-height: 45px;
+}
+
+footer .contenedor-icono:hover a {
+    animation: icono .5s ease;
+}
+
+@keyframes icono {
+    from {
+        transform: rotate3d(0, 0, 0, 0);
+    }
+
+    to {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+footer .creado-por {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    padding-top: 12px;
+}
+
+footer .creado-por a {
+    color: #000;
+}
+
+footer .creado-por a:hover {
+    text-decoration: underline;
+}
+
+/* cuando se haga de ese tamaño colocar todo a 1 columna */
+
+@media (max-width:700px) {
+    .particion {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
